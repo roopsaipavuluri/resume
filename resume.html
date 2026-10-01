@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavuluri Roop Sai - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f2f2;
+            color: #222;
+            line-height: 1.5;
+        }
+
+        .resume {
+            width: 850px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px 50px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #444;
+        }
+
+        .contact a {
+            color: #222;
+            text-decoration: none;
+            margin: 0 6px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #555;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        .summary {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .education-item,
+        .project-item,
+        .certification-item {
+            margin-bottom: 12px;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .item-subtitle {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #555;
+        }
+
+        ul {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 170px 1fr;
+            row-gap: 8px;
+            font-size: 14px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+        }
+
+        .certifications {
+            font-size: 14px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                width: 100%;
+                margin: 0;
+                box-shadow: none;
+            }
+        }
+
+        @media(max-width: 900px) {
+            .resume {
+                width: 95%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>PAVULURI ROOP SAI</h1>
+
+        <div class="contact">
+            <span>+91 9390078104</span> |
+            <a href="mailto:roopsaipavuluri@gmail.com">
+                roopsaipavuluri@gmail.com
+            </a>
+            <br>
+
+            <a href="https://www.linkedin.com/in/roopsai-pavuluri-064b7b28a/"
+               target="_blank">
+                LinkedIn
+            </a> |
+
+            <a href="#" target="_blank">
+                LeetCode
+            </a> |
+
+            <a href="#" target="_blank">
+                GitHub
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+
+        <p class="summary">
+            Computer Science and Information Technology undergraduate with strong
+            foundations in Python, Java, Data Structures, Algorithms, and Software
+            Development. Experienced in developing academic projects involving data
+            analysis, predictive modeling, and student management systems. Skilled in
+            GitHub, Pandas, NumPy, and cloud technologies including Microsoft Azure
+            and Oracle Cloud Infrastructure. Passionate about building scalable
+            software solutions and continuously learning emerging technologies.
+        </p>
+    </div>
+
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <div class="section-title">Education</div>
+
+        <div class="education-item">
+            <div class="item-title">
+                Bachelor of Technology - Computer Science & Information Technology
+            </div>
+
+            <div class="item-subtitle">
+                Koneru Lakshmaiah University, Guntur
+            </div>
+
+            <div class="date">
+                2022 - 2026 | CGPA: 8.2/10
+            </div>
+        </div>
+
+
+        <div class="education-item">
+            <div class="item-title">
+                Intermediate - MPC
+            </div>
+
+            <div class="item-subtitle">
+                Arka Junior College, Guntur
+            </div>
+
+            <div class="date">
+                2020 - 2022 | CGPA: 5.4/10
+            </div>
+        </div>
+
+
+        <div class="education-item">
+            <div class="item-title">
+                SSC
+            </div>
+
+            <div class="item-subtitle">
+                Bhasyam High School, Guntur
+            </div>
+
+            <div class="date">
+                2020
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PROJECTS -->
+    <div class="section">
+        <div class="section-title">Projects</div>
+
+        <div class="project-item">
+            <div class="item-title">
+                Student Grade / Result Management System
+            </div>
+
+            <ul>
+                <li>
+                    Developed a simple system to organize and manage student
+                    records efficiently.
+                </li>
+
+                <li>
+                    Implemented efficient data organization techniques to improve
+                    record management.
+                </li>
+
+                <li>
+                    Designed user-friendly workflows for student information
+                    processing.
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="project-item">
+            <div class="item-title">
+                Gender Responsive Mechanism to Combat Domestic Violence
+            </div>
+
+            <ul>
+                <li>
+                    Built regression-based prediction models using real-world
+                    datasets to identify actionable insights.
+                </li>
+
+                <li>
+                    Performed data cleaning, preprocessing, and visualization
+                    using Python, Pandas, and NumPy.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- KEY SKILLS -->
+    <div class="section">
+        <div class="section-title">Key Skills</div>
+
+        <div class="skills-grid">
+
+            <div class="skill-name">Programming Languages</div>
+            <div>Python, Java, C</div>
+
+            <div class="skill-name">Libraries & Frameworks</div>
+            <div>Pandas, NumPy</div>
+
+            <div class="skill-name">Web Technologies</div>
+            <div>HTML, CSS</div>
+
+            <div class="skill-name">Tools & Platforms</div>
+            <div>GitHub, Excel</div>
+
+            <div class="skill-name">Core Concepts</div>
+            <div>
+                Object-Oriented Programming, Data Analysis,
+                Data Structures & Algorithms
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- CERTIFICATIONS -->
+    <div class="section">
+        <div class="section-title">Certifications</div>
+
+        <ul class="certifications">
+
+            <li>Salesforce AI Associate</li>
+
+            <li>Oracle Cloud Infrastructure Architect Associate</li>
+
+            <li>Microsoft Azure Fundamentals</li>
+
+            <li>Microsoft Azure AI Fundamentals</li>
+
+            <li>AI Fundamentals for Understanding AI - IBM</li>
+
+            <li>Cyber Security - IBM</li>
+
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
